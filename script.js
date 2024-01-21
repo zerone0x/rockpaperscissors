@@ -10,7 +10,7 @@ function playRound(playerSelection, computerSelection){
     playerSelection=playerSelection.toLowerCase();
     if ((playerSelection== 'rock' && computerSelection=='paper' ) || (playerSelection== 'paper' && computerSelection=='scissors' ) || (playerSelection== 'scissors' && computerSelection=='rock' )){
         console.log("you lose");
-        return [0,1,0];rock
+        return [0,1,0];
     }
     else if ((playerSelection== 'rock' && computerSelection=='scissors' ) || (playerSelection== 'paper' && computerSelection=='rock' ) || (playerSelection== 'scissors' && computerSelection=='paper' )){
         console.log("you win");
