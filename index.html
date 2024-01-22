@@ -2,8 +2,20 @@
 <html>
 <head>
     <title>My Rock Paper Scissors Game</title>
-    <script src="script.js"></script> <!-- Reference to JavaScript file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
+    <div id="title">Rock Paper Scissors</div> <!-- Div to display title -->
+    <button id ="paly" onclick="play()">Play Game</button> <!-- Button to start game -->
+    <div id="choices"> <!-- Div to display choices -->
+    <button id ="rock" >Rock</button>
+
+    <button id ="paper" >Paper</button>
+    <button id ="scissors" >Scissors</button>
+    </div>
+    <div id="result"></div> <!-- Div to display result -->
+    <div id="score">0 0</div> <!-- Div to display score -->
 </body>
+<script src="script.js"></script>
 </html>

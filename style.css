@@ -1,0 +1,18 @@
+body{
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    background-color:aquamarine;
+}
+
+.choices{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
